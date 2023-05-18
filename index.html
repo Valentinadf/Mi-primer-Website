@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> ¡Mi primer website!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="container-nav">
+        <nav class="navbar" role="navigation">
+            <a href="index.html" class="brand">Mi página web</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Información</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+    <main>
+        <div class="container">
+            <h1> ¡Bienvenidos a mi primer Website!</h1>
+            <div id="div1">
+                <img class="imagen1"
+                src="https://img.freepik.com/vector-gratis/panda-lindo-trabajando-ilustracion-icono-vector-dibujos-animados-portatil-concepto-icono-tecnologia-animal-aislado-vector-premium-estilo-dibujos-animados-plana_138676-3487.jpg?w=740&t=st=1683220242~exp=1683220842~hmac=1e7d25e729621c439ed379e39236fd3fb643e59c7263a9138b311fb6d306f34a" width="400" height="400" >
+            </div>
+            <div class="row">
+                <section>
+                    <div class="column">
+                        <p> Soy Valen, ¡y esta es mi primer página web! </p>
+                        <p> Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="column">
+                        <h2> Probando HTML </h2>
+                        <h2> ¡Por primera vez! </h2>
+                        <p><a class="enlace"
+                                HREF=https://lxp.eggcooperation.com/dashboard/643ecda5b98b91cfb34428bd>
+                            Enlace al curso de EGG</a> "Programación desde cero" que es la base de este website.</p>
+                        <p> A lo largo de este curso estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudaran a crear una base sólida en el desarrollo web front-end. </p>
+                    </div>
+                </section>
+                <div id="div2">
+                    <img class="imagen2"
+                    src="https://img.freepik.com/vector-gratis/lindo-panda-colgando-lapiz-dibujos-animados-vector-icono-ilustracion-educacion-animal-icono-plano-aislado_138676-7645.jpg?w=740&t=st=1683260194~exp=1683260794~hmac=3e001b256ccd55b694b548ad3e0781c7902f25e14f6c4cdca4712eeec1e87c13" width="400" height="400" >
+                </div>
+                <div class="box">
+                    <p> El desarrollo web sirve para congregar todas tus ideas y necesidades, relativas a un negocio, empresa o profesionalización, y compartirlas con los demás de una forma amigable y estética para el usuario. </p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qWcwFMAqpME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <form id="myForm">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js" > </script>
+</body>
+<footer>
+    <p> Este es el footer de mi página </p>
+    <button onclick="showAlert()" aria-label="Haz clíck en mí"> ¡Haz clíck en mi!</button>
+</footer>
+
+</html>
